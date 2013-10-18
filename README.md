@@ -15,7 +15,7 @@ Installation
 Add the following line into your Gemfile
 
 ```ruby
-gem 'jQuery-URL-Parser-Rails'
+gem 'jQuery-URL-Parser-Rails', git: 'git://github.com/thinkswan/jQuery-URL-Parser-Rails.git', branch: 'rails4'
 ```
 
 and require the purl library in the application.js file

@@ -20,5 +20,5 @@ Gem::Specification.new do |gem|
     gem.post_install_message = File.read('UPGRADING')
   end
 
-  gem.add_dependency "railties", "~> 3.1"
+  gem.add_dependency "railties", ">= 3.1"
 end
