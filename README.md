@@ -15,7 +15,7 @@ Installation
 Add the following line into your Gemfile
 
 ```ruby
-gem 'jQuery-URL-Parser-Rails', git: 'git://github.com/thinkswan/jQuery-URL-Parser-Rails.git', branch: 'rails4'
+gem 'jQuery-URL-Parser-Rails'
 ```
 
 and require the purl library in the application.js file
@@ -39,12 +39,12 @@ There are a few different ways to choose what URL to parse:
 ``` javascript
 /*---- jQuery version -----*/
 var url = $.url(); // parse the current page URL
-var url = $.url('http://allmarkedup.com'); // pass in a URI as a string and parse that 
+var url = $.url('http://allmarkedup.com'); // pass in a URI as a string and parse that
 var url = $('#myElement').url(); // extract the URL from the selected element and parse that - will work on any element with a `src`, `href` or `action` attribute.
 
 /*---- plain JS version -----*/
 var url = purl(); // parse the current page URL
-var url = purl('http://allmarkedup.com'); // pass in a URI as a string and parse that 
+var url = purl('http://allmarkedup.com'); // pass in a URI as a string and parse that
 ```
 
 URL attributes
@@ -70,7 +70,7 @@ The attributes available for querying are:
 * **directory** - the directory part of the path (eg. /folder/dir/)
 * **file** - the basename of the file eg. index.html
 * **query** - the entire querystring if it exists, eg. item=value&item2=value2
-* **fragment** (also available as **anchor**) - the entire string after the # symbol 
+* **fragment** (also available as **anchor**) - the entire string after the # symbol
 
 There are also a few more obscure ones available too if you want to dig about a bit ;-)
 
