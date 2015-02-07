@@ -1,9 +1,8 @@
 # coding: utf-8
-require File.expand_path('../lib/JQueryUrlParserRails/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.name          = "jQuery-URL-Parser-Rails"
-  gem.version       = JQueryUrlParserRails::VERSION
+  gem.version       = '0.0.1'
   gem.authors       = ["Dirk Eisenberg"]
   gem.email         = ["dirk.eisenberg@gmail.com"]
   gem.description   = %q{Simple way to integrate the url parameters jquery plugin in the asset pipeline of rails}

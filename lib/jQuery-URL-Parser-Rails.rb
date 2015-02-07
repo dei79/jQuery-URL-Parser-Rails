@@ -2,5 +2,5 @@
 require 'rails'
 
 # it's an engine
-require 'JQueryUrlParserRails/engine'
-require 'JQueryUrlParserRails/version'
+require 'jQueryURLParserRails/engine'
+require 'jQueryURLParserRails/version'
