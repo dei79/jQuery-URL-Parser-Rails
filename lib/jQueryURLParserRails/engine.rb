@@ -1,4 +1,4 @@
-require "jQueryUrlParserRails/version"
+require "jQueryURLParserRails/version"
 
 module JQueryUrlParserRails
   class Engine < ::Rails::Engine
